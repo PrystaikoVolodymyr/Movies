@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/api/v1/', require("./router/index"))
 
-app.listen(config.PORT, () => {
-    console.log(`Running on port ${config.PORT}`);
+app.listen(config.APP_PORT, () => {
+    console.log(`Running on port ${config.APP_PORT}`);
 
 });
