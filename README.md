@@ -22,5 +22,5 @@ Node.js API for movies
 
 ```
 POST=8000
-DB_STORAGE=filma
+DB_STORAGE=films
 ```
